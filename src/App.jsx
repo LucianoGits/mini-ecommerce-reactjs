@@ -12,8 +12,6 @@ import AuthComponent from "./Routes/auth/AuthComponent";
 import Shop from "./Routes/shop/ShopComponent";
 import Checkout from "./Routes/checkout/CheckoutComponent";
 
-import { getCurrentUser } from "./Utilities/firebase/firebaseUtility";
-
 const App = () => {
   const dispatch = useDispatch();
 

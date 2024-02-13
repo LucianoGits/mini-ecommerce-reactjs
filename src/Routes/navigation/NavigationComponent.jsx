@@ -4,8 +4,6 @@ import { selectIsCartOpen } from "../../reduxStateManagement/cart/cart.selector"
 
 import { Outlet } from "react-router-dom";
 
-import { signOutUser } from "../../Utilities/firebase/firebaseUtility";
-
 import { ReactComponent as ShopLogo } from "../../assets/shop-logo.svg";
 
 import CartIcon from "../../Components/cart-icon/CartIconComponent";
