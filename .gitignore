@@ -1,9 +1,11 @@
 # dependencies
 /node_modules
 
-# production
-/.vscode
 # misc
 .DS_Store
 
-.package-lock.json
+# Ignore VSCode directory
+.vscode/
+
+# Ignore package lock files
+package-lock.json
